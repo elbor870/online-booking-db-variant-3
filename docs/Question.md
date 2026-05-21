@@ -4,7 +4,7 @@
 Для автоматической генерации первичного ключа добавьте атрибут AUTO_INCREMENT
 к целочисленному столбцу, объявленному как PRIMARY KEY:
 
-```text
+```sql
 CREATE TABLE users (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL
